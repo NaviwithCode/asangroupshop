@@ -68,7 +68,7 @@ const ProductsDetails = () => {
                       <div class="data w-full max-w-xl">
                           <p class="text-lg font-medium leading-8 text-indigo-600 mb-4">{products.category?.name}
                           </p>
-                          <h2 class="font-manrope font-bold text-3xl leading-10 text-gray-900 mb-2 capitalize">{products.name}</h2>
+                          <h2 class="font-manrope font-bold text-3xl leading-10 text-gray-900 mb-2 capitalize">{products.name.substring(0, 44)}</h2>
                           <div class="flex flex-col sm:flex-row sm:items-center mb-6">
                               <h6
                                   class="font-manrope font-semibold text-2xl leading-9 text-gray-900 pr-5 sm:border-r border-gray-200 mr-5">
