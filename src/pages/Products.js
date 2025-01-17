@@ -145,7 +145,7 @@ const Products = () => {
     </a>
   </div>
   <div class="pt-6">  
-    <a href={`/products/${p.slug}`} class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">{p.name}</a>
+    <a href={`/products/${p.slug}`} class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">{p.name.substring(0, 44)}</a>
     <div class="mt-4 flex items-center justify-between gap-4">
       <p class="text-2xl font-extrabold mt-4 leading-tight text-gray-900 dark:text-white">AED{p.price}</p>
 
